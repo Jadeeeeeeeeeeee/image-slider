@@ -1,0 +1,64 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  position: absolute;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%,-50%);
+  height: 98%;
+  width: 98%;
+  font-family: arial, sans-serif;
+}
+
+.image{
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,-50%);
+}
+
+.explenation{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%,-50%);
+}
+
+.explenation p{
+  font-size: 2rem;
+}
+
+.leftArrow{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+
+.leftArrow:hover{
+  cursor: pointer;
+}
+
+.rightArrow{
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  transform: translate(-50%,-50%);
+  rotate: 180deg; 
+}
+
+.rightArrow:hover{
+  cursor: pointer;
+}
